@@ -1,0 +1,45 @@
+@import url(./global.css);
+
+.section-des-pop{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 60px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.explanation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.explanation span{
+    padding: 12px 20px;
+    color: var(--color-pink);
+    border: 1px solid var(--color-d-gray);
+    border-radius: 24px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-body4);
+}
+
+.explanation h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+}
+
+.explanation p{
+    font-family: var(--font-family-secundary);
+    color: var(--color-grey);
+    width: 572px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.plans{
+    display: flex;
+    gap: 20px;
+}
