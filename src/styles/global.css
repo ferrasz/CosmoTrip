@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* --------- CORES ---------- */
+
+    --color-white: #FFFFFF;
+    --color-l-black: #0F0F0F;
+    --color-black: #000000;
+    --color-d-gray: #4D4D4D;
+    --color-grey: #999999;
+    --color-pink: #FF3CAC;
+
+    /* --------- FONTES ---------- */
+
+    --font-size-h1: 50px;
+    --font-size-h2: 45px;
+    --font-size-h3: 27px;
+    --font-size-h4: 21px;
+    --font-size-body1: 20px;
+    --font-size-body2: 18px;
+    --font-size-body3: 16px;
+    --font-size-body4: 14px;
+    
+    --font-weight-h1: 700;
+    --font-weight-h2: 500;
+    --font-weight-h3: 700;
+    --font-weight-h4: 700;
+    --font-weight-body1: 400;
+    --font-weight-body2: 400;
+    --font-weight-body3: 400;
+    --font-weight-body4: 400;
+
+    --font-family-primary: "Alexandria", sans-serif;
+    --font-family-secundary: "Inter", sans-serif;
+}
