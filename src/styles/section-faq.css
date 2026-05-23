@@ -1,0 +1,11 @@
+@import url("./global.css");
+
+.section-faq{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-l-black);
+}
+
+.conteiner-faq{
+    color: var(--color-white);
+}
