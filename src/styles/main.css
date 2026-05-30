@@ -1,0 +1,106 @@
+@import url("./global.css");
+
+/* --- Section Main --- */
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0;
+    background-color: var(--color-black);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 546px;
+}
+
+.container-init{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border: 1px solid var(--color-d-gray);
+    border-radius: 10px;
+    width: 81px;
+}
+
+.container-init .init-img{
+    display: flex;
+    align-items: center;
+}
+
+.container-init span{
+    color: var(--color-pink);
+    font-size: var(--font-size-body4);
+    font-weight: var(--font-weight-body4);
+    font-family: var(--font-family-primary);
+}
+
+.main-content h1{
+    color: var(--color-white);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    font-family: var(--font-family-primary);
+    text-transform: capitalize;
+}
+
+.main-content h1 span{
+    color: var(--color-pink);
+}
+
+.main-content p{
+    color: var(--color-grey);
+    font-size: var(--font-size-body2);
+    font-weight: var(--font-weight-body2);
+    font-family: var(--font-family-secundary);
+    line-height: 140%;
+}
+
+.container-btns-main{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-principal-main{
+    display: flex;
+    padding: 14px 24px;
+    background-color: var(--color-pink);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-body2);
+    font-weight: var(--font-weight-body2);
+    font-family: var(--font-family-secundary);
+    transition: 0.3s;
+}
+
+.btn-principal-main:hover{
+    background-color: rgb(190, 7, 111);
+    transform: scale(1.05);
+}
+
+.btn-packages-main{
+    display: flex;
+    gap: 6px;
+    padding: 14px 24px;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid var(--color-d-gray);
+    border-radius: 10px;
+    color: var(--color-white);
+    font-size: var(--font-size-body3);
+    font-weight: var(--font-weight-body3);
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-packages-main:hover{
+    background-color: var(--color-d-gray);
+    transform: scale(1.05);
+}
