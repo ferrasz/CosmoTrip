@@ -4,6 +4,8 @@ body{
     background-color: var(--color-black);
 }
 
+/* --------- HEADER --------- */
+
 header {
     display: flex;
     justify-content: space-around;
@@ -63,7 +65,7 @@ header {
     cursor: pointer;
 }
 
-/* --- Section Main --- */
+/* ----------- MAIN -------------- */
 
 .container-main{
     display: flex;
@@ -177,6 +179,8 @@ header {
     gap: 56px;    
 }
 
+/* --------- TRIPS MADE ----------- */
+
 .conteiner-trips-made {
     display: flex;
     flex-direction: column;
@@ -197,6 +201,8 @@ header {
     font-weight: var(--font-weight-body2);
     color: var(--color-grey);
 }
+
+/* ----------- DESTINOS POPULARES --------- */
 
 .section-des-pop{
     display: flex;
@@ -333,6 +339,8 @@ header {
     background-color: rgb(190, 7, 111);
 }
 
+/* ------------ HIGHLIGHTS ----------- */
+
 .section-highlights{
     display: flex;
     flex-direction: column;
@@ -417,6 +425,8 @@ header {
 .highlights:hover .highlights-paragrafh{
     color: #cfcfcf;
 }
+
+/* ------------ TESTIMONIAL ----------- */
 
 .container-testimonial {
     background-color: var(--color-black);
@@ -513,6 +523,8 @@ header {
     padding-top: 9px;
 }
 
+/* ----------- FAQ ------------ */
+
 .section-faq{
     display: flex;
     flex-direction: column;
@@ -574,7 +586,7 @@ header {
     background-color: var(--color-d-gray);
 }
 
-/* --- Footer --- */
+/* ------- FOOTER -------- */
 
 .container-footer {
     display: flex;
