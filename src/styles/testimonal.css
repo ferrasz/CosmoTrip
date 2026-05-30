@@ -57,6 +57,16 @@
     display: flex;
     flex-direction: column;
     width: 364px;
+    transition: 0.3s;
+}
+
+.testimonial-card:hover .testimonial-text{
+    color: var(--color-white);
+}
+
+.testimonial-card:hover {
+    background-color:  rgba(198, 7, 112, 0.359);
+    cursor: pointer;
 }
 
 .card-header {
