@@ -33,7 +33,9 @@ header {
     font-weight: var(--font-weight-h1);
 }
 
+
 .btn-header {
+    display: inline-block; 
     background-color: var(--color-pink);
     color: var(--color-white);
     border-radius: 10px;
@@ -42,5 +44,12 @@ header {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body3);
     font-weight: var(--font-weight-h1);
+    transition: 0.3s;
+}
+
+.btn-header:hover {
+    background-color: rgba(198, 7, 111);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
