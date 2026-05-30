@@ -71,9 +71,6 @@
     padding: 14px 24px;
     background-color: var(--color-pink);
     border-radius: 10px;
-}
-
-.btn-principal-main a{
     text-decoration: none;
     color: var(--color-white);
     font-size: var(--font-size-body2);
@@ -91,8 +88,19 @@
     display: flex;
     gap: 6px;
     padding: 14px 24px;
-    justify-content: center;
     align-items: center;
-    border: 1.5 solid var(--color-d-gray);
+    justify-content: center;
+    border: 1.5px solid var(--color-d-gray);
     border-radius: 10px;
+    color: var(--color-white);
+    font-size: var(--font-size-body3);
+    font-weight: var(--font-weight-body3);
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-packages-main:hover{
+    background-color: var(--color-d-gray);
+    transform: scale(1.05);
 }
