@@ -61,7 +61,7 @@
 }
 
 .testimonial-card:hover .testimonial-text{
-    color: var(--color-white);
+    color: #cfcfcf;
 }
 
 .testimonial-card:hover {
