@@ -1,0 +1,137 @@
+@import url(./global.css);
+
+.section-des-pop{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 60px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.explanation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.explanation span{
+    padding: 12px 20px;
+    color: var(--color-pink);
+    border: 1px solid var(--color-d-gray);
+    border-radius: 24px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+}
+
+.explanation h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+}
+
+.explanation p{
+    font-family: var(--font-family-secundary);
+    color: var(--color-grey);
+    width: 572px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.container-plans{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.planets{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-l-black);
+    width: 364px;
+    border-radius: 18.29px;
+    transition: 0.3s;
+}
+
+.planets:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(190, 7, 111, 0.626);
+}
+
+.content-planets{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10.5px 14.4px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience h3{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-secundary);
+    font-size: var(--font-size-h3);
+    gap: 20px;
+}
+
+.experience p{
+    display: flex;
+    font-family: var(--font-family-primary);
+    width: 335.19px;
+    color: var(--color-grey);
+}
+
+.stars{
+    display: flex;
+    gap: 9.15px;
+}
+
+.stars p{
+    font-family: var(--font-family-primary);
+    color: var(--color-grey);
+    letter-spacing: 0.5px;
+}
+
+.values{
+    display: flex;
+    gap: 104.26px;
+}
+
+.bag{
+    display: flex;
+    align-items: center;
+    gap: 9.15px;
+}
+
+.bag p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body4);
+    color: var(--color-grey);
+    width: 56.7px;
+}
+
+.values span{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+}
+
+.btn-des-pop{
+    background-color: var(--color-pink);
+    font-family: var(--font-family-primary);
+    padding: 9.15px 0;
+    border-radius: 9.15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn-des-pop:hover{
+    background-color: rgb(190, 7, 111);
+   
+}
