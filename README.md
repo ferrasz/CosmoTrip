@@ -46,7 +46,7 @@ CosmoTrip é um projeto desenvolvido durante o curso de Desenvolvedor Front-End 
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-![Web1](https://github.com/ferrasz/Fintech/blob/main/thumb-Fintech.png)
+![Web1](https://github.com/ferrasz/CosmoTrip/blob/main/Thumb-CosmoTrip.png)
 
 ---
 
